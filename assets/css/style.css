@@ -241,10 +241,11 @@ cursor: pointer;
 
 /* Width at 980px  */
 @media screen and (max-width: 980px) {
-   
+    nav {
+        padding-right: 2%;
+    }
 
-
-
+    
 /* Width at 768px  */
 @media screen and (max-width: 768px) {
     
@@ -259,24 +260,16 @@ cursor: pointer;
     #header {
         width: 100%
     }
-    
-    #logo {
-        align-content: center;
-        position: static;
-    }
-    
-    #contact-form {
-        width: 100%;
-    }
-    
+
     .main-section{
-    max-width: 650px;
+    max-width: 92%;
     margin-left: 30px;
     }
 
-
-
-
+    nav {
+        padding-right: 2%;
+    }
+    
 
  /* Width at 640px */
 @media screen and (max-width: 640px) {
@@ -295,16 +288,21 @@ cursor: pointer;
 }
 
 .main-section{
-max-width: 340px;
-margin-left: 30px;
+    max-width: 90%;
+    margin-left: 5%;
 }
  
 #logo {
-    width: 640px;
-    padding-left: 82px;
+    width: 100%;
+    padding-left: 20%;
 }
 
 nav {
-    width: 640px;
-    padding-left: 300px;
+    width: 100%;
+    padding-left: 12%;
+}
+
+
+#main-box {
+    padding-top: 40%;
 }
