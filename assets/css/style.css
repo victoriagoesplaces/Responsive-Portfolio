@@ -287,14 +287,6 @@ cursor: pointer;
 
 #box  {
     width: 100%;
-}
-
-#header {
-    width: 100%;
-}
-
-#logo {
-    align-content: center;
     position: static;
 }
 
@@ -305,4 +297,14 @@ cursor: pointer;
 .main-section{
 max-width: 340px;
 margin-left: 30px;
+}
+ 
+#logo {
+    width: 640px;
+    padding-left: 82px;
+}
+
+nav {
+    width: 640px;
+    padding-left: 300px;
 }
